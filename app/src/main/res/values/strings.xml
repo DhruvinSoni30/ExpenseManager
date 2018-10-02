@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Expensify</string>
+    <string name="country_prompt">Choose Payment Method</string>
+
+    <string-array name="country_arrays">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>Net Banking</item>
+    </string-array>
+
+</resources>

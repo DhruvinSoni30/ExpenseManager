@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <EditText
+        android:id="@+id/Cpassword"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Cpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/loinHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="Already Register?? Login Here"
+        android:textColor="@color/darkBlue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-115dp"
+        app:srcCompat="@drawable/main" />
+
+    <EditText
+        android:id="@+id/Uname"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="18dp" />
+
+</RelativeLayout>

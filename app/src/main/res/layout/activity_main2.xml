@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".Main2Activity">
+
+    <EditText
+
+        android:id="@+id/Email"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/shape"
+        android:text="Login" />
+
+    <TextView
+
+        android:id="@+id/registerHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="New User?? Register Here"
+        android:textColor="@color/darkBlue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/main" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:background="@drawable/editshape"
+        android:gravity="center"
+        android:hint="Username"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="18sp" />
+</RelativeLayout>
